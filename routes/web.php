@@ -18,6 +18,10 @@ Route::get('/',  ['uses' => 'WelcomeController@index', 'as' => 'home']);
 Route::get('users', 'UsersController@getInfos');
 Route::post('users', 'UsersController@postInfos');
 
+// PHOTOS 
+Route::get('photo', 'PhotoController@getForm');
+Route::post('photo', 'PhotoController@postForm');
+
 // CONTACTS 
 Route::get('contact', 'ContactController@getForm');
 Route::post('contact', 'ContactController@postForm');
