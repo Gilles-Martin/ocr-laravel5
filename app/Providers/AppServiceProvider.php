@@ -6,6 +6,7 @@ use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
+
     /**
      * Register any application services.
      *
@@ -13,7 +14,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->bind(
+                'App\Gestion\PhotoGestionInterface',
+                'App\Gestion\PhotoGestion'
+        );
     }
 
     /**
@@ -25,4 +29,5 @@ class AppServiceProvider extends ServiceProvider
     {
         //
     }
+
 }
