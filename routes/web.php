@@ -18,6 +18,10 @@ Route::get('/',  ['uses' => 'WelcomeController@index', 'as' => 'home']);
 Route::get('users', 'UsersController@getInfos');
 Route::post('users', 'UsersController@postInfos');
 
+// CONTACTS 
+Route::get('contact', 'ContactController@getForm');
+Route::post('contact', 'ContactController@postForm');
+
 Route::get('/article/{n}',  ['uses' => 'ArticleController@show', 'as' => 'article'])->where('n', '[0-9]+');
 
 Route::get('/facture/{n}',[ 'uses' => 'FactureController@show' ])->where('n', '[0-9]+');
