@@ -33,3 +33,6 @@ Route::post('contact', 'ContactController@postForm');
 Route::get('/article/{n}',  ['uses' => 'ArticleController@show', 'as' => 'article'])->where('n', '[0-9]+');
 
 Route::get('/facture/{n}',[ 'uses' => 'FactureController@show' ])->where('n', '[0-9]+');
+
+
+Route::resource('user', 'UserController');
