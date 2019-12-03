@@ -14,6 +14,10 @@
 
 Route::get('/',  ['uses' => 'WelcomeController@index', 'as' => 'home']);
 
+// EMAILS
+Route::get('email', 'EmailController@getForm');
+Route::post('email', ['uses' => 'EmailController@postForm', 'as' => 'storeEmail']);
+
 // USERS 
 Route::get('users', 'UsersController@getInfos');
 Route::post('users', 'UsersController@postInfos');

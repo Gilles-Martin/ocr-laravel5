@@ -3,15 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/wamp64/www/ocr/ocr_app_laravel/laravel5/composer.json</file>
-            <file>file:/C:/wamp64/www/ocr/ocr_app_laravel/laravel5/resources/views/vue1.php</file>
-            <file>file:/C:/wamp64/www/ocr/ocr_app_laravel/laravel5/resources/views/welcome.blade.php</file>
-            <file>file:/C:/wamp64/www/ocr/ocr_app_laravel/laravel5/config/app.php</file>
+            <file>file:/C:/wamp64/www/ocr/ocr_app_laravel/laravel5/app/Http/Requests/ImagesRequest.php</file>
+            <file>file:/C:/wamp64/www/ocr/ocr_app_laravel/laravel5/app/Http/Controllers/PhotoController.php</file>
+            <file>file:/C:/wamp64/www/ocr/ocr_app_laravel/laravel5/resources/views/photo.blade.php</file>
             <file>file:/C:/wamp64/www/ocr/ocr_app_laravel/laravel5/routes/web.php</file>
-            <file>file:/C:/wamp64/www/ocr/ocr_app_laravel/laravel5/.env</file>
-            <file>file:/C:/wamp64/www/ocr/ocr_app_laravel/laravel5/resources/views/article.blade.php</file>
-            <file>file:/C:/wamp64/www/ocr/ocr_app_laravel/laravel5/resources/views/template.blade.php</file>
-            <file>file:/C:/wamp64/www/ocr/ocr_app_laravel/laravel5/resources/views/facture.blade.php</file>
+            <file>file:/C:/wamp64/www/ocr/ocr_app_laravel/laravel5/app/Gestion/PhotoGestionInterface.php</file>
+            <file>file:/C:/wamp64/www/ocr/ocr_app_laravel/laravel5/app/Gestion/PhotoGestion.php</file>
+            <file>file:/C:/wamp64/www/ocr/ocr_app_laravel/laravel5/app/Providers/AppServiceProvider.php</file>
+            <file>file:/C:/wamp64/www/ocr/ocr_app_laravel/laravel5/resources/views/photo_ok.blade.php</file>
+            <file>file:/C:/wamp64/www/ocr/ocr_app_laravel/laravel5/bootstrap/app.php</file>
+            <file>file:/C:/wamp64/www/ocr/ocr_app_laravel/laravel5/app/Http/Middleware/Authenticate.php</file>
         </group>
     </open-files>
 </project-private>
