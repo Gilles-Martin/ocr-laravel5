@@ -8,6 +8,6 @@ class Email extends Model
 {
     protected $table = 'emails';
     
-    public $timestamps = false;
+    public $timestamps = true;
     
 }
