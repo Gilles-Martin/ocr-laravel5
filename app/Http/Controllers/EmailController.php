@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Email;
 use App\Http\Requests\EmailRequest;
+use App\Repositories\EmailRepositoryInterface;
 use Illuminate\Http\Request;
 
 class EmailController extends Controller
@@ -14,11 +14,10 @@ class EmailController extends Controller
         return view('email');
     }
 
-    public function postForm(EmailRequest $request)
+    public function postForm(EmailRequest $request,EmailRepositoryInterface $emailRepository )
     {
-        $email = new Email;
-        $email->email = $request->input('email');
-        $email->save();
+        
+        $emailRepository->save($request->input('email'));
 
         return view('email_ok');
     }
