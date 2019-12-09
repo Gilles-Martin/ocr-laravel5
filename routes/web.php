@@ -37,8 +37,10 @@ Route::get('/facture/{n}',[ 'uses' => 'FactureController@show' ])->where('n', '[
 
 Route::resource('user', 'UserController');
 Auth::routes();
+Route::get('logout', 'Auth\LoginController@logout');
 
 Route::get('/home', 'HomeController@index')->name('home');
 
 
 Route::resource('post', 'PostController', ['except' => ['show', 'edit', 'update']]);
+Route::get('post/tag/{tag}', 'PostController@indexTag');
